@@ -44,6 +44,7 @@ for name, requirements in extras_require.items():
 
 setup(
     name='SQLAlchemy-Continuum',
+    python_requires='>3.6.0',
     version=get_version(),
     url='https://github.com/kvesteri/sqlalchemy-continuum',
     license='BSD',
